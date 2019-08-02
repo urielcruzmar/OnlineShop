@@ -32,7 +32,15 @@ public class Warehouse {
 	 * @return article
 	 */
 	public Article getArticle(Integer code) {
-		return articles[code];
+		
+		Article article = null;
+		
+		if (null != articles[code]) {
+			article = articles[code];
+		}
+		
+		return article;
+		
 	}
 	
 }

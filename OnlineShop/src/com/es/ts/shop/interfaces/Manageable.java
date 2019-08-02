@@ -9,10 +9,10 @@ package com.es.ts.shop.interfaces;
  */
 public interface Manageable<T> {
 
-	public boolean create(T article);
-	public boolean search(String code);
-	public boolean modify(T article);
-	public boolean delete(T article);
+	public boolean create(T entity);
+	public T search(Integer code);
+	public boolean modify(T entity);
+	public boolean delete(T entity);
 	
 	public T[] listAll();
 	

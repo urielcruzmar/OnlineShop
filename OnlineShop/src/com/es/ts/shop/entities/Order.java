@@ -38,4 +38,6 @@ public class Order {
 		return user;
 	}
 	
+	// Methods
+	
 }
